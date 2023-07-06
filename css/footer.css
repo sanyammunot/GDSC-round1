@@ -1,0 +1,55 @@
+.footer {
+	height: 40vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.foot {
+	height: 40vh;
+	width: 95vw;
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-start;
+	font-family: "Poppins", sans-serif;
+	padding-top: 140px;
+}
+.jadoo-foot {
+	font-size: 44px; 
+	color: #181e4b;
+}
+.footer-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.sub-class {
+	font-size: 21px;
+	color: #080809;
+	font-weight: 600;
+}
+button {
+	font-size: 18px;
+	color: #5e6282;
+	padding: 0;
+	margin: 0;
+	border: none;
+	background: none;
+	font: inherit;
+	text-align: inherit;
+	text-decoration: none;
+}
+.subheading {
+	display: flex;
+	flex-direction: column;
+}
+.minutes {
+	font-size: 14px;
+	font-weight: 400;
+	color: #5e6282;
+}
+.app {
+	color: #5e6282;
+}

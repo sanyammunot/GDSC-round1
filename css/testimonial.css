@@ -1,0 +1,56 @@
+.testimonials {
+    display: flex;
+	flex-direction: row;
+	/* border: 1px solid red; */
+	height: 500px;
+	align-items: center;
+	justify-content: space-between;
+}
+.moan {
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: left;
+	/* border: 1px solid blue; */
+	height: 200px;
+	padding: 0 150px;
+	width: 300px;
+    color: #181e4b;
+}
+.title {
+    font-size: 32px;
+}
+.subtitle {
+    font-size: 22px
+}
+.review {
+    box-shadow: rgba(145, 157, 165, 0.2) 0px 15px 34px;
+	border-radius: 32px;
+	height: 140px;
+	width: 320px;
+	padding: 48px;
+    margin-right: 150px;
+    color: #5E6282;
+	margin-top: 150px;
+}
+.man {
+	position: absolute;
+	right: 530px;
+	margin-top: -60px;
+}
+.windows {
+	margin-top: -10px;
+	line-height: 24px;
+	letter-spacing: 0.5px;
+}
+.mike {
+	margin-top: 0;
+	margin-bottom: 0;
+    margin-right: 220px;
+}
+.pak {
+    margin-top: 0;
+	margin-bottom: 0;
+	font-weight: 120;
+    margin-right: 200px;
+}

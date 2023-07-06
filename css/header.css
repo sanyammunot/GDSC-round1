@@ -1,0 +1,85 @@
+.menu {
+	color: #000000;
+	height: 46px;
+	width: 100%;
+	padding-top: 19px;
+	padding-left: 18px;
+	z-index: 100;
+	position: absolute;
+}
+
+.logo-menu {
+	float: left;
+	margin-top: 5px;
+	margin-right: 340px;
+	margin-left: 75px;
+}
+
+.menu ul, .menu li {
+	margin: 0 auto;
+	padding: 0;
+	list-style: none
+}
+.menu ul {
+	width: 100%;
+}
+.menu li {
+	float: left;
+	display: inline;
+	/* position: relative; */
+	display: block;
+	line-height: 46px;
+	padding: 0 5px;
+	text-decoration: none;
+	color: #000000;
+	cursor: pointer;
+	margin-left: 31px;
+}
+.menu li.dropdown-arrow:after {
+	content: "\25BE";
+	margin-left: 5px;
+}
+
+.sign-up {
+	border: 1px solid #000000;
+	padding: 10px 20px;
+}
+
+.arrow {
+	border: solid black;
+	border-width: 0 3px 3px 0;
+	display: inline-block;
+	padding: 3.5px;
+	position: relative;
+	right: -3.5px;
+	top: -1px;
+}
+.down {
+	transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+}
+
+.menu ul.sub-menus{
+	height: auto;
+	overflow: hidden;
+	width: 130px;
+	background: #e4abab;
+	position: absolute;
+	z-index: 99; 
+	display: none;
+	padding-left: 3px;
+	border-radius: 4px;
+}
+/* .menu ul.sub-menus li {
+	display: block;
+	width: 50%;
+} */
+
+.menu li:hover ul.sub-menus {
+	display: block;
+	width: 4%;
+}
+.menu ul.sub-menus {
+	background: #a7a0a0;
+	color: #463f3f;
+}

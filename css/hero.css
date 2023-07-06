@@ -1,0 +1,109 @@
+.hero {
+	height: 700px;
+}
+.girl {
+	position: relative;
+	top: -650px;
+	right: -610px;
+	height: 49%;
+	width: 49%;
+	z-index: 100;
+	margin-bottom: 0;
+}
+
+.content, .title, .description {
+	display: flex;
+	flex-direction: column;
+	justify-content: right;
+	margin-bottom: 0;
+}
+
+.heading {
+	right: -100px;
+	position: relative;
+	top: 150px;
+	text-transform: uppercase;
+	font-weight: 900;
+	color: #DF6951;
+	letter-spacing: 1px;
+}
+
+.travel {
+	position: relative;
+	font-weight: 900;
+	font-size: 70px;
+	right: -100px;
+	width: 58%;
+	top: 80px;
+}
+.two {
+	position: relative;
+	top: -140px;
+	margin-bottom: 0px;
+}
+.underscore {
+	position: relative;
+	right: -200px;
+	top: -70px;
+	width: 59%;
+	height: 10px;
+	z-index: -1;
+	/* border-bottom: 2px solid #DF6951; */
+}
+
+.description p {
+	position: relative;
+	font-size: 16px;
+	right: -100px;
+	width: 30%;
+	top: -100px;
+	margin-top: 0px;
+	color: #a7a0a0;
+}
+
+.buttons {
+	margin-top: 10px;
+	position: relative;
+	top: -100px;
+	display: flex;
+	flex-direction: row;
+	justify-content: left;
+}
+
+.btn {
+	margin-bottom: 0;
+	position: relative;
+	right: -100px;
+	padding: 18px;
+	font-size: 16px;
+	border: none;
+	margin-right: 30px;
+	cursor: pointer;
+}
+
+.find {
+	color: white;
+	background-color: orange;
+	border-radius: 8px;
+}
+
+.demo {
+	border-radius: 50%;
+	margin-right: 6px;
+	height: 60px;
+	width: 60px;
+}
+.demo-img {
+	height: 60px;
+	width: 60px;
+	margin-left: -20px;
+	margin-top: -20px;
+	border-radius: 50%;
+
+}
+.play {
+	background-color: #fff;
+	color: #a7a0a0;
+	margin-left: 0px;
+	cursor: auto;
+}

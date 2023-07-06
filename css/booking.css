@@ -1,0 +1,89 @@
+.booking {
+	margin-top: 120px;
+	margin-bottom: 70px;
+	font-family: "Poppins", sans-serif;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 0 150px;
+	/* border: 1px solid red; */
+}
+.text-book {
+	display: flex;
+	flex-direction: column;
+	width: 400px;
+	/* border: 1px solid blue; */
+}
+.top-book {
+	display: flex;
+	flex-direction: column;
+	/* border: 1px solid red; */
+}
+.heading-book {
+	color: #5e6282;
+	font-weight: 600;
+}
+.discrp-book {
+	font-family: 'Volkhov';
+	/* font-size: 50px; */
+	color: #14183e;
+	font-size: 40px;
+	font-weight: 800;
+	margin-top: 0;
+}
+
+.section-booking {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	justify-content: center;
+	/* border: 1px solid red; */
+}
+.img-book {
+	width: 40px;
+	height: 40px;
+	border-radius: 22px;
+	margin-right: 25px;
+}
+.choose {
+	font-weight: 600;
+	margin-bottom: 0;
+	color: #5e6282;
+	font-size: 16px;
+}
+.discrip-desti {
+	margin-top: 3px;
+	font-size: 16px;
+	font-weight: 400;
+	color: #5e6282
+}
+
+.booking {
+	/* border: 1px solid #000; */
+	height: 400px;
+}
+.greece-main {
+	position: relative;
+	right: 140px;
+	top: -50px;
+}
+.greece_02 {
+	position: absolute;
+	right: -144px;
+	z-index: -1;
+	top: -210px;
+	filter: blur(5px);
+}
+.greece_03{
+	position: absolute;
+	right: -35px;
+	margin-top: 170px;
+	z-index: 1; 
+}
+.greece {
+	display: flex;
+	flex-direction: row;
+	margin-top: 100px;
+	width: 340px;
+}
